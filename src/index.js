@@ -1,9 +1,12 @@
-import React from 'react';
 import ReactDOM from "react-dom";
+import { makeMainRoutes } from './routes';
 
-import App from "./App";
+import './style.css';
+import 'bootstrap/dist/css/bootstrap.css';
+
+const routes = makeMainRoutes();
 
 ReactDOM.render(
-    <App />,
-    document.getElementById('root')
+  routes,
+  document.getElementById('root')
 );
