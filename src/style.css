@@ -1,5 +1,4 @@
-@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css';
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
 html,
 body,
 div,
@@ -13,7 +12,8 @@ span {
 }
 
 body {
-  background: url("http://shurl.esy.es/y") no-repeat fixed center;
+  
+  background: #e5ddd5;
   background-size: cover;
 }
 
@@ -316,7 +316,7 @@ body {
 .message {
   padding: 0 !important;
   margin: 0 !important;
-  background: url("w.png") no-repeat fixed center;
+  background: url("w.png") repeat;
   background-size: cover;
   overflow-y: auto;
   border: 1px solid #f7f7f7;
