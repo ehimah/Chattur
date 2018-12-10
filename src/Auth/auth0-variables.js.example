@@ -1,0 +1,6 @@
+//rename file to auth0-variables.js
+export const AUTH_CONFIG = {
+  domain: 'get domain from Auth0',
+  clientId: '#get clientId from Auth0',
+  callbackUrl: 'http://localhost:3000/callback'
+}
