@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-HTML template cloned from [https://bootsnipp.com/fullscreen/gNZQQ] (This Bootsnip)
+HTML template cloned from [This Bootsnip] (https://bootsnipp.com/fullscreen/gNZQQ)
 
 ## Available Scripts
 
