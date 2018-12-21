@@ -5,11 +5,11 @@ function ConversationHeading(props) {
         <div className="row heading">
             <div className="col-sm-2 col-md-1 col-xs-3 heading-avatar">
                 <div className="heading-avatar-icon">
-                    <img src={props.imageUrl} />
+                    <img src="https://placeimg.com/50/50/people" alt="profile img"/>
                 </div>
             </div>
             <div className="col-sm-8 col-xs-7 heading-name">
-                <a className="heading-name-meta">{props.name}
+                <a className="heading-name-meta">{props.currentUser.name}
                 </a>
                 <span className="heading-online">{props.status}</span>
             </div>

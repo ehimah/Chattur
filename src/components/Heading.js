@@ -11,6 +11,7 @@ class Heading extends React.Component {
                         <img src="https://placeimg.com/50/50/people" />
                     </div>
                 </div>
+                <div className="col-sm-6">{this.props.currentUserName}</div>
                 <div className="col-sm-1 col-xs-1  heading-dot  pull-right">
                     <i className="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
                 </div>

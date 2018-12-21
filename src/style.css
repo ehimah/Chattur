@@ -25,7 +25,7 @@ body {
   position: relative;
   overflow: hidden;
   top: 19px;
-  height: calc(100% - 38px);
+  height: calc(100% - 100px);
   margin: auto;
   padding: 0;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .06), 0 2px 5px 0 rgba(0, 0, 0, .2);
@@ -215,6 +215,10 @@ body {
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #000;
+}
+
+span.name-meta.active{
+  font-weight: bold;
 }
 
 .sideBar-time {
@@ -529,6 +533,10 @@ body {
   .name-meta {
     font-size: 16px;
     padding: 5% !important;
+  }
+
+  span.name-meta.active{
+    font-weight: bold;
   }
   .sideBar-time {
     padding: 10px !important;

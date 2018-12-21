@@ -7,12 +7,14 @@
     "auth0-js": "^9.8.2",
     "auth0-lock": "^11.12.1",
     "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.22.2",
     "react": "^16.6.3",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
