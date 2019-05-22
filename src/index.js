@@ -10,3 +10,8 @@ ReactDOM.render(
   routes,
   document.getElementById('root')
 );
+
+//activate HMR
+if(module.hot){
+  module.hot.accept()
+}
