@@ -3,15 +3,20 @@
   "description": "Chattur React App and Express Backend",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run clean && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
-    "start": "npm run build && node dist/server.js",
-    "dev": "NODE_ENV=development npm run server",
-    "clean": "rimraf dist/"
+    "start": "npm run prod",
+    "server": "babel-node ./src/",
+    "server:prod": "node ./dist/",
+    "build": "babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "clean": "rimraf dist/",
+    "dev": "SET NODE_ENV=development npm-run-all server",
+    "prod": "SET NODE_ENV=production npm-run-all clean build server:prod",
+    "watch": "nodemon"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "mongoose": "*"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
